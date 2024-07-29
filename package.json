@@ -14,7 +14,8 @@
     "test-e2e-cli": "cypress run",
     "format": "prettier -w src/**/*.{js,mjs}",
     "lint": "eslint src/**/*.{js,mjs}",
-    "lint-fix": "eslint src/**/*.{js,mjs} --cache --fix"
+    "lint-fix": "eslint src/**/*.{js,mjs} --cache --fix",
+    "prepare": "husky install"
   },
   "author": "Jon Henrik Åvitsland",
   "license": "ISC",
@@ -28,7 +29,9 @@
     "eslint-plugin-cypress": "^3.4.0",
     "eslint-plugin-jest": "^28.6.0",
     "globals": "^15.8.0",
+    "husky": "^9.1.4",
     "jest": "^29.7.0",
+    "lint-staged": "^15.2.7",
     "postcss": "^8.4.40",
     "prettier": "^3.3.3",
     "tailwindcss": "^3.4.7",
