@@ -114,14 +114,26 @@
                 >
                 <div
                   class="border border-slate-900 flex p-4 gap-4 items-center font-bold rounded text-[1.125rem] cursor-pointer hover:border-lime transition-colors"
+                  data-active="radio"
                 >
-                  <input type="radio" name="calcType" id="calcRepayment" />
+                  <input
+                    type="radio"
+                    name="calcType"
+                    id="calcRepayment"
+                    class="form-radio checked:text-lime"
+                  />
                   <label for="calcRepayment">Repayment</label>
                 </div>
                 <div
                   class="border border-slate-900 flex p-4 gap-4 items-center font-bold rounded text-[1.125rem] cursor-pointer hover:border-lime transition-colors"
+                  data-active="radio"
                 >
-                  <input type="radio" name="calcType" id="calcInterest" />
+                  <input
+                    type="radio"
+                    name="calcType"
+                    id="calcInterest"
+                    class="form-radio checked:text-lime"
+                  />
                   <label for="calcInterest" class="capitalize"
                     >Interest only</label
                   >

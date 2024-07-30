@@ -15,6 +15,7 @@ export default {
     colors: {
       transparent: 'transparent',
       lime: '#D8DB2F',
+      limeOpacity: '#D8DB2F15',
       slate: {
         100: '#E4F4FD',
         300: '#9ABED5',
