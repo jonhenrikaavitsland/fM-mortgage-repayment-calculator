@@ -8,6 +8,9 @@ export default {
       fontFamily: {
         sans: ['Plus-jakarta-sans', ...defaultTheme.fontFamily.sans],
       },
+      boxShadow: {
+        customShadow: '0px 32px 64px 0px rgba(19, 48, 65, 0.10)',
+      },
     },
     colors: {
       lime: '#D8DB2F',
