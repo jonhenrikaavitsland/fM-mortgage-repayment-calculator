@@ -1,6 +1,6 @@
 {
   "name": "mortgage-repayment-calculator",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "a tool to manage mortgage repayments.",
   "main": "index.js",
   "scripts": {
