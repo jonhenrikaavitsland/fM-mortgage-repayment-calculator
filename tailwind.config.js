@@ -24,6 +24,10 @@ export default {
       white: '#FFFFFF',
       red: '#D73328',
     },
+    screens: {
+      sm: '688px',
+      lg: '1008px',
+    },
   },
   plugins: [require('@tailwindcss/forms')],
 };
