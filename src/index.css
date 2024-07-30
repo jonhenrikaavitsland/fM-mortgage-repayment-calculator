@@ -27,3 +27,9 @@
     src: url("./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf")
   }
 }
+
+@layer utilities {
+  .bg-custom-gradient:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), #D8DB2F;
+  }
+}
