@@ -60,49 +60,51 @@
               </div>
             </div>
             <div class="flex flex-col gap-6">
-              <div class="flex flex-col gap-3">
-                <label
-                  for="calcTerm"
-                  class="font-medium capitalize pointer-events-none"
-                  >Mortgage Term</label
-                >
-                <div
-                  class="flex min-w-32 border border-slate-900 rounded"
-                  data-active="info"
-                >
-                  <input
-                    type="text"
-                    id="calcTerm"
-                    data-active="input"
-                    class="form-input min-w-20 grow h-12 rounded-bl rounded-tl border-none cursor-pointer focus:ring-0"
-                  />
-                  <div
-                    class="form-input rounded-br rounded-tr bg-slate-100 leading-none flex items-center py-3 px-4 border-none text-[1.125rem] font-bold"
+              <div class="flex flex-col gap-6 lg:flex-row lg:justify-between">
+                <div class="flex flex-col gap-3 lg:w-auto lg:max-w-[47%]">
+                  <label
+                    for="calcTerm"
+                    class="font-medium capitalize pointer-events-none"
+                    >Mortgage Term</label
                   >
-                    years
+                  <div
+                    class="flex min-w-32 border border-slate-900 rounded"
+                    data-active="info"
+                  >
+                    <input
+                      type="text"
+                      id="calcTerm"
+                      data-active="input"
+                      class="form-input min-w-20 grow h-12 rounded-bl rounded-tl border-none cursor-pointer focus:ring-0"
+                    />
+                    <div
+                      class="form-input rounded-br rounded-tr bg-slate-100 leading-none flex items-center py-3 px-4 border-none text-[1.125rem] font-bold"
+                    >
+                      years
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="flex flex-col gap-3">
-                <label
-                  for="calcRate"
-                  class="font-medium capitalize pointer-events-none"
-                  >Interest Rate</label
-                >
-                <div
-                  class="flex min-w-32 border border-slate-900 rounded"
-                  data-active="info"
-                >
-                  <input
-                    type="text"
-                    id="calcRate"
-                    data-active="input"
-                    class="form-input min-w-20 grow h-12 rounded-bl rounded-tl border-none cursor-pointer focus:ring-0"
-                  />
-                  <div
-                    class="form-input rounded-br rounded-tr bg-slate-100 leading-none flex items-center py-3 px-4 border-none text-[1.125rem] font-bold"
+                <div class="flex flex-col gap-3 lg:w-auto lg:max-w-[47%]">
+                  <label
+                    for="calcRate"
+                    class="font-medium capitalize pointer-events-none"
+                    >Interest Rate</label
                   >
-                    %
+                  <div
+                    class="flex min-w-32 border border-slate-900 rounded"
+                    data-active="info"
+                  >
+                    <input
+                      type="text"
+                      id="calcRate"
+                      data-active="input"
+                      class="form-input min-w-20 grow h-12 rounded-bl rounded-tl border-none cursor-pointer focus:ring-0 lg:min-w-6"
+                    />
+                    <div
+                      class="form-input rounded-br rounded-tr bg-slate-100 leading-none flex items-center py-3 px-4 border-none text-[1.125rem] font-bold"
+                    >
+                      %
+                    </div>
                   </div>
                 </div>
               </div>
