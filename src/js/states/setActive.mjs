@@ -5,9 +5,10 @@ export function setActive() {
 
   inputFields.forEach((input) => {
     const wrapper = input.parentElement;
+    console.log('Parent:', wrapper);
     const sibling = input.previousElementSibling || input.nextElementSibling;
     console.log(sibling);
-    InputFieldsListener(input, 'focusin', wrapper, sibling);
-    InputFieldsListener(input, 'focusout', wrapper, sibling);
+    InputFieldsListener(input, 'focus', wrapper, sibling);
+    InputFieldsListener(input, 'blur', wrapper, sibling);
   });
 }
