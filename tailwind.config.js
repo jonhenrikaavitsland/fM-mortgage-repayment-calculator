@@ -22,5 +22,5 @@ export default {
       red: '#D73328',
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 };
