@@ -1,4 +1,4 @@
-import { InputFieldsListener } from '../listeners/inputFieldsListener.js';
+import { InputFieldsListener } from '../listeners/inputFieldsListener.mjs';
 
 export function setActive() {
   const inputFields = document.querySelectorAll(`[data-active="input"]`);
