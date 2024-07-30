@@ -13,6 +13,7 @@ export default {
       },
     },
     colors: {
+      transparent: 'transparent',
       lime: '#D8DB2F',
       slate: {
         100: '#E4F4FD',
