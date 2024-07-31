@@ -30,5 +30,5 @@ export default {
       lg: '1008px',
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 };
