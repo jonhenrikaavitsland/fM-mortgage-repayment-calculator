@@ -11,7 +11,7 @@ export function InputFieldsListener(input, state, parent, sibling) {
       parent.classList.add('border-slate-900');
       parent.classList.remove('border-lime');
       sibling.classList.remove('bg-lime');
-      sibling.classList.remove('bg-slate-100');
+      sibling.classList.add('bg-slate-100');
     }
   });
 }

@@ -1,17 +1,12 @@
-export function radioListener(type, index, types, child) {
+export function radioListener(type) {
   type.addEventListener('click', () => {
     console.log(type);
-    type.classList.add('bg-limeOpacity', 'border-lime');
-    type.classList.remove('border-slate-900');
-    child.checked = true;
-    for (let i = 0; i < types.length; i++) {
-      if (i !== index) {
-        if (types[i].classList.contains('bg-limeOpacity')) {
-          types[i].classList.remove('bg-limeOpacity');
-          types[i].classList.remove('border-lime');
-          types[i].classList.add('border-slate-900');
-        }
-      }
+    if (!type.classList.contains('testToggle')) {
+      type.classList.remove('border-slate-900');
+      type.classList.add('testToggle', 'border-lime');
+    } else {
+      type.classList.remove('testToggle', 'border-lime');
+      type.classList.add('border-slate-900');
     }
   });
 }
