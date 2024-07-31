@@ -44,17 +44,17 @@
               >
               <div
                 class="flex min-w-32 border border-slate-900 rounded"
-                data-active="info"
+                data-active="input"
               >
                 <div
                   class="form-input rounded-bl rounded-tl bg-slate-100 leading-none flex items-center py-3 px-4 border-none text-[1.125rem] font-bold"
+                  data-active="info"
                 >
                   £
                 </div>
                 <input
                   type="text"
                   id="calcAmount"
-                  data-active="input"
                   class="form-input min-w-20 grow h-12 rounded-br rounded-tr border-none cursor-pointer focus:ring-0"
                 />
               </div>
@@ -69,16 +69,16 @@
                   >
                   <div
                     class="flex min-w-32 border border-slate-900 rounded"
-                    data-active="info"
+                    data-active="input"
                   >
                     <input
                       type="text"
                       id="calcTerm"
-                      data-active="input"
                       class="form-input min-w-20 grow h-12 rounded-bl rounded-tl border-none cursor-pointer focus:ring-0"
                     />
                     <div
                       class="form-input rounded-br rounded-tr bg-slate-100 leading-none flex items-center py-3 px-4 border-none text-[1.125rem] font-bold"
+                      data-active="info"
                     >
                       years
                     </div>
@@ -92,16 +92,16 @@
                   >
                   <div
                     class="flex min-w-32 border border-slate-900 rounded"
-                    data-active="info"
+                    data-active="input"
                   >
                     <input
                       type="text"
                       id="calcRate"
-                      data-active="input"
                       class="form-input min-w-20 grow h-12 rounded-bl rounded-tl border-none cursor-pointer focus:ring-0 lg:min-w-6"
                     />
                     <div
                       class="form-input rounded-br rounded-tr bg-slate-100 leading-none flex items-center py-3 px-4 border-none text-[1.125rem] font-bold"
+                      data-active="info"
                     >
                       %
                     </div>
@@ -115,6 +115,7 @@
                 <div
                   class="border border-slate-900 flex p-4 gap-4 items-center font-bold rounded text-[1.125rem] cursor-pointer hover:border-lime"
                   data-active="radio"
+                  name="calcType"
                 >
                   <input
                     type="radio"
@@ -129,6 +130,7 @@
                 <div
                   class="border border-slate-900 flex p-4 gap-4 items-center font-bold rounded text-[1.125rem] cursor-pointer hover:border-lime"
                   data-active="radio"
+                  name="calcType"
                 >
                   <input
                     type="radio"
